@@ -1,0 +1,7 @@
+-- Which customers are frequent and diverse food delivery users?
+-- Question: Find customers who have placed at least 5 successfully 
+-- paid orders, ordered from at least 3 different restaurants, and 
+-- spent more than the average total spending among customers with 
+-- successful payments. Return each customer's name, number of 
+-- successful orders, number of distinct restaurants ordered from,
+--  and total spending.

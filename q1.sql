@@ -1,0 +1,6 @@
+-- Which restaurants have high menu variety but low sales?
+-- Question: Find restaurants that offer more menu items than 
+-- the average restaurant but have sold fewer total units than 
+-- the average restaurant. Include restaurants that have never 
+-- sold any menu items. Return the restaurant name, cuisine type, 
+-- number of menu items offered, and total quantity sold.

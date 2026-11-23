@@ -1,0 +1,6 @@
+-- Which drivers perform better than other drivers serving the same cuisine?
+-- Question: Find drivers who have completed at least 5 deliveries for 
+-- restaurants belonging to a particular cuisine type and whose average
+-- delivery duration is shorter than the average delivery duration for 
+-- that cuisine. Return the driver's name, cuisine type, number of deliveries,
+-- average delivery duration, and the average duration for that cuisine.
