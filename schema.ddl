@@ -61,7 +61,7 @@ CREATE TABLE Orders (
 -- Payment
 -- Every payment belongs to exactly one order.
 -- Each order can have at most one payment.
--- paymentStatus: TRUE = successful, FALSE = failed.
+-- paymentStatus: pending, successful, or failed.
 -- paymentDate records the time of the payment attempt.
 CREATE TABLE Payment (
     pID INT PRIMARY KEY,

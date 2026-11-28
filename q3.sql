@@ -1,9 +1,8 @@
--- Which drivers perform better than other drivers serving the same cuisine?
--- Question: Find drivers who have completed at least 5 deliveries for 
--- restaurants belonging to a particular cuisine type and whose average
--- delivery duration is shorter than the average delivery duration for 
--- that cuisine. Return the driver's name, cuisine type, number of deliveries,
--- average delivery duration, and the average duration for that cuisine.
+-- Which drivers have shorter average delivery times than the overall average?
+-- Question: Find drivers who have completed at least 5 deliveries and whose 
+-- average delivery duration is shorter than the overall average across all 
+-- completed deliveries. Return the driver's ID, name, total deliveries, and
+-- average delivery duration.
 
 CREATE VIEW DeliveryDuration AS
 SELECT d.deliveryID, d.driverID,
